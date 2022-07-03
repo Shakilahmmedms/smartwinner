@@ -1,0 +1,779 @@
+/*Header css*/
+
+a.nav-link {
+    font-weight: 700;
+}
+p.yourbl {
+}
+
+span {
+    display: inline-flex;
+}
+.wlcome {width: 200px;float: right;}
+
+.logoimg {
+    float: left;
+}
+button#logutbtn {
+    border: none;
+    background: none;
+    color: #0061A3;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    padding:5%;
+}
+select{
+    font-family: 'FontAwesome' , 'TATSanaChon';
+}
+
+select.form-control {
+    width: 160px;
+}
+.header_main {
+    display: inline-flex;
+}
+.container-fluid {
+   
+}
+span.roma {
+    font-size: 16px;
+}
+.wlcome h5 {
+    display: inline-block;
+}
+button.btn.btn-outline-success {background-color: #0061A3;color: white;padding: 8px 32px;}
+a.nav-link {
+    color: white !important;
+}
+
+
+.container-fluid {
+    border-radius: 8px;
+}
+li.nav-item {
+    border-left: 2px solid white;
+    padding: 0px 20px;
+}
+.home_item {
+    border-left: none!important;
+    text-decoration: underline;
+}
+div#navbarSupportedContent {
+    background-color: red;
+    border-radius: 8px;
+}
+/*Language selection*/
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+  font-family: Arial;
+  font-family: 'Muli', sans-serif;
+}
+.nav-wrapper {
+  width: 300px;
+  
+  text-align: center;
+}
+  .sl-nav {
+  display: inline;
+}
+.sl-nav ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+.sl-nav li {
+  cursor: pointer;
+  padding-bottom:10px;
+}
+.sl-nav li ul {
+  display: none;
+}
+.sl-nav li:hover ul {
+  position: absolute;
+  top:29px;
+  right:-15px;
+  display: block;
+  background: #fff;
+  width: 120px;
+  padding-top: 0px;
+  z-index: 1;
+  border-radius:5px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li:hover .triangle {
+  position: absolute;
+  top: 15px;
+  right: -10px;
+  z-index:10;
+  height: 14px;
+  overflow:hidden;
+  width: 30px;
+  background: transparent;
+}
+.sl-nav li:hover .triangle:after {
+  content: '';
+  display: block;
+  z-index: 20;
+  width: 15px;
+  transform: rotate(45deg) translateY(0px) translatex(10px);
+  height: 15px;
+  background: #fff;
+  border-radius:2px 0px 0px 0px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li ul li {
+  position: relative;
+  text-align: left;
+  background: transparent;
+  padding: 15px 15px;
+  padding-bottom:0;
+  z-index: 2;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+.sl-nav li ul li:last-of-type {
+  padding-bottom: 15px;
+}
+.sl-nav li ul li span {
+  padding-left: 5px;
+}
+.sl-nav li ul li span:hover, .sl-nav li ul li span.active {
+  color: #146c78;
+}
+.sl-flag {
+  display: inline-block;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+  width: 15px;
+  height: 15px;
+  background: #aaa;
+  border-radius: 50%;
+  position: relative;
+  top: 2px;
+  overflow: hidden;
+}
+.flag-de {
+background: url(images/uk.png);
+  background-size: cover;
+  background-position: center center;
+}
+.flag-usa {
+  background-size: cover;
+  background-position: center center;
+ background-image: url(images/america.jpg);
+}
+/*Banner image*/
+
+.banngerimg{
+    
+    height: 462px;
+    position: relative;
+}
+
+/*For card design*/
+.cat1, .cat2, .cat3{
+    padding: 10px 26px;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    margin: 5px;
+}
+.categories h3{
+    color: black;
+}
+.categories img{
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.categories{
+    margin-top: 20px;
+}
+
+#lastone{
+    margin-top: 5px;
+}
+.fordisplay h3{
+    font-size: 16px;
+}
+.fordisplay a{
+    float: right!important;
+    position: relative;
+    margin-top: -30px;
+}
+
+.displayFont {
+    font-size: 14px;
+}
+
+.fordisplay {
+    margin-top: 14px;
+}
+
+
+/*For Biggest*/
+#demo{
+    text-align: center;
+    
+  }
+  .bigessttitle {
+    padding: 11px;
+}
+  img.imgForbiggest {
+    width: 72px;
+    height: 59px;
+}
+.forbtntimer {
+    background-color: #0061A3;
+}
+
+.megadiv {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    /* height: 150px; */
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.mega {
+    position: relative;
+    /* display: inline-flex; */
+    /* width: 191px; */
+}
+.mega p {
+    font-weight: bold;
+}
+.formegaimg img {
+    width: 72px;
+    height: 59px;
+}
+.formegaimg{
+    float: left;
+    margin-right: 47px;
+    padding: 13px 22px;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+}
+.mega img {
+    width: 23px;
+  }
+.mega h3 {
+    font-size: 15px;
+}
+.btntimer {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border-radius: 8px;
+}
+.btntimer button {
+    padding: 6px 26px;
+}
+section#biggest {}
+
+/*For pay upcoming*/
+
+.forimgborder {
+    width: 77px;
+    border: 2px solid #ddd;
+    border-radius: 40px;
+    margin-bottom: 21px;
+}
+.forflag{
+    width: 23px;
+}
+.paydis h5 {
+    font-size: 14px;
+}
+.paydis {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 10px 13px;
+    text-align: center;
+    margin: 15px -15px;
+}
+.paydis p {
+    font-weight: bold;
+}
+button.btn.btn-warning {
+    width: 128px;
+}
+.forsizing {
+    margin-top: 10px;
+}
+
+.forlineheight {
+    line-height: 12px;
+}
+.payTitle h5 {
+    font-size: 18px;
+    color: white;
+    margin-top: 7px;
+}
+
+.payTitle {
+    text-align: center;
+    background-color: #F30000;
+    padding: 4px;
+    border-radius: 8px;
+}
+.col-md-2 {
+    width: 204px;
+    margin: auto;
+    height: 227px;
+    margin-bottom: 9px;
+}
+
+/*Latest winner*/
+.winnerTitle {
+    background-color: #F30000;
+    text-align: center;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.winnerTitle h5 {
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.winnerlatest {
+    background-color: red;
+    padding: 2px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    margin-top: -89px;
+}
+
+.winnerlatest h5 {
+    margin-top: 3px;
+}
+img.starlogo {
+    width: 50px;
+}
+
+.imgwithtext {
+    display: flex;
+}
+img.starlogo {
+    width: 50px;
+    height: 34px;
+}
+
+.imgwithtext {
+    display: flex;
+    margin: 15px;
+    margin-left: 50px;
+}
+.imgwithwon {
+    display: flex;
+    margin-left: 127px;
+    padding: 21px;
+}
+
+.imgwithwon img {
+    width: 50px;
+}
+.date_and_uk {
+    display: flex;
+}
+.wondisplay {
+    display: -webkit-inline-box;
+    width: 100%;
+}
+.imgwithtitle {
+    
+width: 400px;
+}
+
+.titlewithp {
+   
+}
+img#imageSize {
+    width: 357px;
+    position: relative;
+}
+
+.totalpaid {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 5px;
+    margin-top: 11px;
+    padding-top: 10px;
+    height: 93px;
+}
+.everydiv{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    line-height: 5px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.totalpaid h4 {
+    color: #13902A;
+    font-weight: 700;
+}
+
+span#forclr {
+    font-weight: 700;
+    font-size: 26px;
+    padding-right: 8px;
+}
+p.dateforwon {
+    margin-top: 7px;
+}
+
+.winner2img {
+    width: 76px;
+}
+.imgwithdiv {
+    padding-right: 12px;
+    padding-left: 7px;
+}
+img.germanyflag {
+    width: 20px;
+    margin-right: 6px;
+}
+.topdiv {
+    margin-bottom: 14px;
+}
+span.forcolrchgn {
+    color: #0061A3;
+    font-size: 36px;
+}
+
+.imgwithwon h5 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+/*Last one*/
+.biggestlotterywiner {
+    background-color: red;
+    padding: 2px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    
+}
+.wondollar img {
+    width: 53px;
+}
+
+.wondollar h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.wondollar {
+    display: flex;
+    width: 398px;
+    margin: auto;
+}
+span#nextofWon {color: #0061A3;font-size: 36px;}
+div#seconddivOfshoun {
+    margin-bottom: 150px;
+    margin-top: 15px;
+    display: inline-grid;
+}
+div#fristdivOfshoun {
+    margin-top: 15px;
+}
+
+/*FAQ*/
+
+.text-secondary {
+    color: #3d5d6f;
+  }
+  
+  .h4,
+  h4 {
+    font-size: 1.2rem;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .fa,
+  .fas {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: normal;
+  }
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .h-100 {
+    height: 100%;
+  }
+  
+  a.text-secondary:focus,
+  a.text-secondary:hover {
+    text-decoration: none;
+    color: #22343e;
+  }
+  
+  #accordion .fa-plus {
+    transition: -webkit-transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  }
+  
+  #accordion a[aria-expanded=true] .fa-plus {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  section#maincontent {
+    padding: 0px;
+}
+
+div#textarea_2 {
+    margin-left: 0px;
+}
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #088467;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: linear-gradient(180deg, rgba(255, 253, 253, 0) 33.74%, rgba(255, 255, 255, 0.99) 100%), url(images/footer_bg.png);
+    height: 200px;
+    width: 1170px;
+    margin: auto;
+    
+}
+#footer h5{
+	padding-left: 10px;
+   text-align: left;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:black;
+}
+#footer a {
+    color: black;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:black;
+}
+#footer ul.social li a:hover{
+	color:black;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+ul.list-unstyled.quick-links {
+    text-align: left;
+}
+.livechat{
+  
+
+    width: 500px;
+    margin-left: 78px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+/* identical to box height, or 131% */
+
+
+/* black */
+
+color: #000000;
+
+
+}
+.forwhatsapp {
+    display: flex;
+    width: 400px;
+    
+}
+
+img.whatsappimg {
+    width: 36px;
+    height: 36px;
+}
+.fbandgoogle {
+    
+    position: relative;
+    margin: 0px!important;
+}
+
+.col-xs-12.col-sm-4.col-md-4 {
+    position: relative;
+}
+
+.text-center {
+    text-align: left!important;
+    margin-left: 101px;
+}
+i.fa-brands.fa-facebook {
+    color: #1877F2;
+}
+i.fa.fa-twitter {color: #1DA1F3;}
+i.fa-brands.fa-facebook-messenger {
+    color: #1877F2;
+}
+i.fa-brands.fa-whatsapp {
+    color: #25D366;
+}
+.credit-cards {
+    display: inline;
+    line-height: 68px;
+}
+h5.security {
+    margin-top: 22px;
+}
+.Paymentfor {
+    margin-top: -53px!important;
+}
+
+/*For chating*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  /* background-color: #555; */
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  display: contents;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+ 
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+p#customerservices {
+    margin-top: -16px;
+    margin-left: 48px;
+}
+.smartwinnertxt {
+    margin-bottom: 65px;
+}
