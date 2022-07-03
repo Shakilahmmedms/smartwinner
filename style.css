@@ -486,7 +486,9 @@ div#seconddivOfshoun {
 div#fristdivOfshoun {
     margin-top: 15px;
 }
-
+.shoundatewinner {
+    margin-left: 51px;
+}
 /*FAQ*/
 
 .text-secondary {
