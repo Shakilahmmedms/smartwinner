@@ -1,5 +1,7 @@
 /*Header css*/
-
+.languageslct {
+    width: 210px;
+}
 a.nav-link {
     font-weight: 700;
 }
